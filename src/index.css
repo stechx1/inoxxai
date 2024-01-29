@@ -18,3 +18,12 @@ button{
   box-sizing: border-box;
   border: 0;
 }
+
+.ant-menu-light{
+  color: #fff;
+  background: none;
+}
+
+.ant-menu-light .ant-menu-item:not(.ant-menu-item-selected):not(.ant-menu-submenu-selected):hover{
+  color: #fff;
+}

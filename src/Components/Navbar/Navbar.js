@@ -85,7 +85,7 @@ const Navbar = () => {
       </div>
       <div className={`links ${isMenuOpen ? 'open' : ''}`}>
         <Menu
-          theme='dark'
+          theme='light'
           onClick={() => ''}
           selectedKeys={[activeNavbar]}
           mode='horizontal'
